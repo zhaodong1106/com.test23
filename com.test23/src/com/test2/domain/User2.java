@@ -6,6 +6,15 @@ public class User2 {
 	public int getId() {
 		return id;
 	}
+	public User2(int id, String name) {
+		super();
+		this.id = id;
+		this.name = name;
+	}
+	public User2() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	public void setId(int id) {
 		this.id = id;
 	}
